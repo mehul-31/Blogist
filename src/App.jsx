@@ -17,11 +17,21 @@ function App() {
       .finally(() => setLoading(false));
   }, []);
 
-  return !loading ? (
+  return !loading ? 
+  (
   <div className="bg-gray-800 w-screen h-screen ">
     <h1 className="text-amber-500 text-9xl">Blog App Using AppWrite</h1>
-  </div>) 
-  : null;
+  </div>
+  ) 
+
+  : 
+
+  (
+    <div>
+      // will show the loading animation
+    </div>
+  );
+  
 }
 
 export default App;

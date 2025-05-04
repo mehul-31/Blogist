@@ -7,6 +7,7 @@ import Signup from "../components/Signup";
 import Login from "./Login";
 import PostForm from "./post-from/PostForm";
 
+
 export {
     Header,
     Footer,
@@ -15,6 +16,5 @@ export {
     LogoutBtn,
     Signup,
     Login,
-    PostForm,
-    
+    PostForm, 
 }
